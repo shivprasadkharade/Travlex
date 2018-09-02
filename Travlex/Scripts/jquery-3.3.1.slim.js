@@ -44,7 +44,7 @@
 // arguments.callee.caller (trac-13335). But as of jQuery 3.0 (2016), strict mode should be common
 // enough that all such attempts are guarded in a try block.
 "use strict";
-
+    /* eslint-disable */
 var arr = [];
 
 var document = window.document;

@@ -1208,7 +1208,7 @@ $.extend($.validator, {
 $.format = $.validator.format;
 
 })(jQuery);
-
+/* eslint-disable */
 // ajax mode: abort
 // usage: $.ajax({ mode: "abort"[, port: "uniqueport"]});
 // if mode:"abort" is used, the previous request on that port (port can be undefined) is aborted via XMLHttpRequest.abort() 
